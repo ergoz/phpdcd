@@ -42,6 +42,31 @@
  * @since     File available since Release 1.0.0
  */
 
+$files = array(
+  __DIR__ . '/../../vendor/autoload.php',
+  __DIR__ . '/../../../../autoload.php'
+);
+
+$found = FALSE;
+
+foreach ($files as $file) {
+    if (file_exists($file)) {
+        require $file;
+
+        $found = TRUE;
+
+        break;
+    }
+}
+
+if (!$found) {
+    die(
+      'You need to set up the project dependencies using the following commands:' . PHP_EOL .
+      'curl -s http://getcomposer.org/installer | php' . PHP_EOL .
+      'php composer.phar install' . PHP_EOL
+    );
+}
+
 if (strpos('@php_bin@', '@php_bin') === 0) {
     set_include_path(dirname(__FILE__) . PATH_SEPARATOR . get_include_path());
 }
