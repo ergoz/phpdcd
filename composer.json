@@ -24,9 +24,7 @@
         "pear.phpunit.de/Finder": "*",
         "pear.phpunit.de/PHP_Timer": "*",
         "pear.phpunit.de/PHP_TokenStream": "*",
-        "components.ez.no/ConsoleTools": "*",
-        "pear.phpunit.de/PHP_Timer": "*",
-        "pear.phpunit.de/PHP_Timer": "*",
+        "components.ez.no/ConsoleTools": "*"
     }
 }
 }
