@@ -1,6 +1,6 @@
 {
     "name": "ergoz/phpdcd",
-    "description": "Not Official version of PHPDCD Dead Code Detector (DCD) for PHP code handled with Composer.",
+    "description": "DO NOT INSTALL THIS!!! Still in dev!!! Not Official version of PHPDCD Dead Code Detector (DCD) for PHP code handled with Composer.",
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.0",
