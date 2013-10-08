@@ -11,7 +11,8 @@
     "include-path": [
         "../../ergoz/phpdcd/PHPDCD"
     ],
-    "bin": ["PHPDCD/Detector.php"]
+    
+    "bin": ["PHPDCD/Detector.php"],
     
     "repositories": [
         {
