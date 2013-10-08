@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.3.0",
         "pdepend/pdepend": ">=1.1.1",
-        "symfony/symfony": "*",
+        "symfony/finder": "*",
         "phpunit/phpunit": "*",
         "phpmd/phpmd" : "1.4.*"
     },
