@@ -9,23 +9,14 @@
         "phpunit/phpunit": "*",
         "phpmd/phpmd" : "1.4.*"
     },
-
-    "include-path": [
-        "../../ergoz/phpdcd/PHPDCD"
-    ],
     
-    "bin": ["PHPDCD/Detector.php"],
+    "autoload": {
+        "classmap": [
+            "PHPDCD/"
+        ]
+    },
     
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "http://pear.phpunit.de"
-        }
-    ],
-    "require": {
-        "pear.phpunit.de/Finder": "*",
-        "pear.phpunit.de/PHP_Timer": "*",
-        "pear.phpunit.de/PHP_TokenStream": "*",
-        "components.ez.no/ConsoleTools": "*"
-    }
+    "bin": [
+        "phpdcd.php"
+    ]
 }
